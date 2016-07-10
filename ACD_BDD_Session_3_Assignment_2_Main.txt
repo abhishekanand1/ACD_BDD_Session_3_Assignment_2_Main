@@ -1,0 +1,12 @@
+1. d. Application server
+2. d. All the above
+3. a.abstrated.
+     Underlying storage layers where MapReduce programs are written are abstrated.
+     Map-reduce codes are generally written in a higher layer where the details of underlying storage is abstracted out. This is the reason the input split abstraction was introduced so that you do not have to care about details of underlying storage provider such as block boundary etc.  
+4. b. open( )
+5. d. 5
+6. a. Figuring the first and last whole records in the block
+7. b. Input splits
+8. a. closed
+9. a. Take backup of filesystem metadata to a local disk and a remote NFS mount
+10. a. getmerge
